@@ -135,11 +135,12 @@ a:hover {
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 100px 100px 150px 770px 70px 70px 70px;
+    grid-template-columns: 100px 100px 150px 1300px 70px 70px 70px;
     grid-template-rows: 50px;
     grid-template-areas:
-    "advertising business howsearchworks . privacy terms settings";  
-}
+    "advertising business howsearchworks . privacy terms settings"; 
+} 
+
 #advertising {
     grid-area: advertising;
     justify-self: center;
